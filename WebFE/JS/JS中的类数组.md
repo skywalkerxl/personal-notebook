@@ -21,23 +21,23 @@ categories: ['JS']
 
 1. 函数的参数列表 `arguments`
 
-![1535084093714](D:\NoteBook\WebFE\JS\JS中的类数组.assets\1535084093714.png)
+![1535084093714](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535084093714.png)
 
 2. document.getElementsByClassName
 
-   ![1535084324157](D:\NoteBook\WebFE\JS\JS中的类数组.assets\1535084324157.png)
+   ![1535084324157](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535084324157.png)
 
 我们可以看到获取到的结果是一个`HTMLCollection`
 
 3. document.getElementsByTagName
 
-![1535084441165](D:\NoteBook\WebFE\JS\JS中的类数组.assets\1535084441165.png)
+![1535084441165](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535084441165.png)
 
 同样获取到的是一个`HTMLCollection`
 
 4. document.querySelectorAll
 
-   ![1535084548299](D:\NoteBook\WebFE\JS\JS中的类数组.assets\1535084548299.png)
+   ![1535084548299](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535084548299.png)
 
 我们可以发现其获取到的是一个`NodeList`
 
@@ -82,11 +82,11 @@ function isArrayLike(obj){
 
 转换前	
 
-![1535099406159](D:\NoteBook\WebFE\JS\JS中的类数组.assets\1535099406159.png)
+![1535099406159](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535099406159.png)
 
 转换后
 
-![1535099338918](D:\NoteBook\WebFE\JS\JS中的类数组.assets\1535099338918.png)
+![1535099338918](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535099338918.png)
 
 
 
