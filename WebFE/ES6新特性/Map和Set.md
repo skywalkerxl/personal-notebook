@@ -23,11 +23,11 @@ categories: [JS, ES6]
 let m = new Map([['Michael', 95], ['Bob', 75], ['Tracy', 85]]);
 ```
 
-![1535511182597](D:\MyRepository\personal-notebook\WebFE\ES6新特性\Map和Set.assets\1535511182597.png)
+![1535511182597](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535511182597.png)
 
 `Map`的浏览器兼容性
 
-![1535511431742](D:\MyRepository\personal-notebook\WebFE\ES6新特性\Map和Set.assets\1535511431742.png)
+![1535511431742](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535511431742.png)
 
 `Set`是一种**无重复值**的有序列表
 
@@ -35,11 +35,11 @@ let m = new Map([['Michael', 95], ['Bob', 75], ['Tracy', 85]]);
 let s = new Set([1,2,3,4,5,5]);
 ```
 
-![1535511001401](D:\MyRepository\personal-notebook\WebFE\ES6新特性\Map和Set.assets\1535511001401.png)
+![1535511001401](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535511001401.png)
 
 `Set`的浏览器兼容性
 
-![1535511636832](D:\MyRepository\personal-notebook\WebFE\ES6新特性\Map和Set.assets\1535511636832.png)
+![1535511636832](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/1535511636832.png)
 
 除了IE的兼容性比较差之外，移动及其它PC端浏览器都予以支持
 
