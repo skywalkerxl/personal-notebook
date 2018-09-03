@@ -42,9 +42,9 @@ html, body {
 }
 ```
 
-这样就可以实现我们的三栏样式布局，但是会有一个问题，如果我们给中间栏一个最小宽度的样式，我们就会发现在浏览器宽度缩小时，右栏会遮住中间栏部分
+这样就可以实现我们的三栏样式布局
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082801.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082801.gif)
 
 ### 2. 通过浮动也可以实现三栏布局
 
@@ -80,7 +80,7 @@ html, body {
 
 但是这种方式会有错位的问题
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082808.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082808.gif)
 
 ### 3. 圣杯布局
 
@@ -122,7 +122,7 @@ html, body {
 
 ```
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082805.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082805.gif)
 
 这里我们发现错位了。。。
 
@@ -182,7 +182,7 @@ body {
 }
 ```
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082806.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082806.gif)
 
 如果我们的底部需要加一个自适应上层高度的footer，那么只需要添加一个父级，并清除浮动就可以了
 
@@ -258,7 +258,7 @@ body {
 
 我们可以看到如下图所示
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082807.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082807.gif)
 
 在兼容低版本的浏览器时，双飞翼是个很好的选择，像`display: inline-block`或者`display: table-cell`也是可以实现三栏布局的。
 
@@ -306,7 +306,7 @@ html, body {
 
 
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082809.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082809.gif)
 
 ###6. 使用grid布局
 
@@ -348,7 +348,7 @@ html, body {
 }
 ```
 
-![](D:\MyRepository\personal-notebook\WebFE\CSS\CSS三栏式布局.assets\2018082810.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/2018082810.gif)
 
 
 
