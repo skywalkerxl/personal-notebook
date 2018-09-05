@@ -5,3 +5,5 @@ tags: ['JS', 'JS基础']
 categories: ['JS']
 ---
 
+JS事件机制
+
