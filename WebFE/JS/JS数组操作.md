@@ -13,7 +13,15 @@ JS数组操作大致可以分为以下几类
 
 * `push` 这种方法类似于栈的入栈，返回的是新数组的长度
 * `unshift` 这种方法类似于队列的入队，返回新数组的长度
-* `splice` 
+* `splice(startIndex, deleteCount, item)`  
+
+``` javascript
+let arr = [1, 2, 3, 4, 5];
+
+arr.splice(1, 0, 9);   // [1, 9, 2, 3, 4, 5]  注意，这里不是在原数据后插入，而是在给的位置上插入
+```
+
+
 
 ### 2. 删
 
@@ -58,6 +66,8 @@ arr.copyWithin(2, 0, 2);  // [1, 2, 1, 2, 5];
 * `reduce(pValue, cValue, cIndex, cArr)` 
 
 这里需要明确下 `forEach` 和 `map` 的区别
+
+`forEach` 主要是用于遍历
 
 `map` 更通常的用法和翻译为**映射**， 比如说 react 我们通过一个数组来生成一组列表并返回，那么这就是一种映射
 
