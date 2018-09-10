@@ -13,7 +13,7 @@ categories: [JS, 组件开发]
 
 先上效果图
 
-![](D:\MyRepository\personal-notebook\WebFE\组件开指南\轮播图组件\原生JS实现.assets\2.gif)
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/personal-notebook/WebFE/%E7%BB%84%E4%BB%B6%E5%8C%96%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%BB%84%E4%BB%B6/2.gif)
 
 `html` 部分
 
@@ -222,3 +222,15 @@ s2.init();
 })();
 ```
 
+效果如下
+
+![](https://wave-1253805456.cos.ap-chengdu.myqcloud.com/WaveBlog/personal-notebook/WebFE/%E7%BB%84%E4%BB%B6%E5%8C%96%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/%E8%BD%AE%E6%92%AD%E5%9B%BE%E7%BB%84%E4%BB%B6/3.gif)
+
+
+
+### 可扩展部分
+
+1. 使用 `transform` 来替代使用 `left` 等，减少浏览器 `repaint`
+2. 可以开启 `GPU加速` 来加速渲染我们的页面
+3. 可以使用 `requestAnimation` 来平滑我们的定时器动画
+4. 组件编写方式还可以再扩展
