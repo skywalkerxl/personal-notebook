@@ -84,6 +84,17 @@ str.match(reg);  // [abz, acz]
 2. 不指定参数名称，返回全部的参数对象 或者 {}
 3. 如果存在多个同名参数，则返回数组
 
+``` javascript
+function getUrlParam(url, key){
+    let res = {};
+    url.replace(/\??(w+)=(w+)\&?/g, (match, key, value) => {
+        
+    })
+}
+```
+
+
+
 ### 2. var s1 = "get-element-by-id"; 给定这样一个连字符串，写一个function转换为驼峰命名法形式的字符串 getElementById
 
 

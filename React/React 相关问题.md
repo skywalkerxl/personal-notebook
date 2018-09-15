@@ -16,3 +16,10 @@ React 相关问题：
 
 
 这里涉及到了 React 高阶 API 
+
+
+
+### 2. React 如何获取到真实 dom?  refs 了解吗  ?
+
+通过 this.refs 获取
+
