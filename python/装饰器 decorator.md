@@ -10,6 +10,7 @@ python 里面有个装饰器的功能，为装饰模式的语法糖
 先写一个不带参数的装饰器，计算函数的时间
 
 ``` python
+# 这里是计算时间的装饰器
 def time_spend(func):
     def wrapper(*args, **kwargs):
         time_start = time.time()
@@ -18,6 +19,19 @@ def time_spend(func):
         return back;
     return wrapper()
 ```
+
+我们可以通过这样的方式来调用
+
+``` python
+@time_spend():
+    def demo_func():
+        time.sleep(1)
+        print("我结束了")
+```
+
+
+
+
 
 
 
