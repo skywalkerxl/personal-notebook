@@ -35,7 +35,7 @@ $ul.append(listFacg);
 
 // 冒泡到父级绑定事件
 $ul.addEventListener('click', function(event){
-    if(event.currentTarget === $ul){
+    if(event.currentTarget	 === $ul){
         console.log(event.target);
     }
 }, false);
