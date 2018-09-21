@@ -116,7 +116,12 @@ function getUrlParam(url, key){
 
 ### 6. JS实现千位分隔符
 
-
+``` javascript
+function format(number) {     
+    var regx = /\d{1,3}(?=(\d{3})+$)/g;     
+    return (number + '').replace(regx, '$&,')  // $&表示与regx相匹配的字符串 
+}
+```
 
 ### 7. 验证邮箱
 
