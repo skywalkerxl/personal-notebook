@@ -107,3 +107,15 @@ CSS 部分如下
 
 增加了 BFC 之后，我们的 right 元素就不再与左边的浮动元素重叠
 
+
+
+
+
+## 二. 如何触发BFC
+
+1. overflow 不为 `visible`，也即 `auto, scroll, inherit, hidden`
+2. float 的值不为 none， 也即 `left, right`
+3. display的值为 `inline-block, table-cell, table-caption`
+4. position的值为 `absolute, fixed`
+
+以上几种方式就可以触发 BFC
