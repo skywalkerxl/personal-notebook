@@ -18,8 +18,8 @@ categories: [JS]
 5. 如果 y 为 undefined, x 为 number， 那么返回 x == ToNumber(y)
 6. 如果 x 为 Boolean，那么返回 ToNumber(x) == y
 7. 如果 y 为 Boolean，那么返回 x == ToNumber(y)
-8. 如果 x 为 string, number, symbol , y 为 object， 返回  x == ToPrimitive(y)
-9. 如果 y 为 string, number, symbol . x 为 object， 返回  ToPrimitive(x) == y
+8. 如果 x 为 string, number, symbol ，y 为 object， 返回  x == ToPrimitive(y)
+9. 如果 y 为 string, number, symbol ，x 为 object， 返回  ToPrimitive(x) == y
 
 这里需要理解 ToPrimitive 的计算过程,
 

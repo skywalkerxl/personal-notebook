@@ -118,7 +118,12 @@ function getUrlParam(url, key){
 
 ``` javascript
 function format(number) {     
-    var regx = /\d{1,3}(?=(\d{3})+$)/g;     
+    // 这里匹配的思想
+    // 找到元素开头是 1 - 3 位的数字，这里是为了不在字符串的开头填充逗号
+    // 以元素中 3 位数字为一组，元素前填充逗号
+    var regx = /\d{1,3}(?=(\d{3})+$)/g;  
+    // 或者我们这样做，不匹配元素开头的位置，可以这样写
+    var regx2 = /(?!^)((\d{1,3})+)$/g;
     return (number + '').replace(regx, '$&,')  // $&表示与regx相匹配的字符串 
 }
 ```
